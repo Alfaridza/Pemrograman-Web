@@ -1,0 +1,42 @@
+.judul{
+    color: white;
+    background-color: green;
+    font-family: sans-serif;
+}
+
+.gambar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+}
+
+*{
+    background-color: bisque;
+}
+
+.Kontak{
+    color:red;
+}
+
+p{
+    font-size: 120%;
+    color: red;
+}
+
+.warna{
+    color: red;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.paragrap{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+
+.pengalaman{
+    font-size: 100%;
+    
+}
