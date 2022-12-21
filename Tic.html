@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+
+	<!-- CSS file Included -->
+	<link rel="stylesheet"
+		type="text/css" href="Tac.css">
+
+	<!-- JavaScript file included -->
+	<script src="Toe.js"></script>
+</head>
+
+<body>
+	<div id="main">
+		<h1>Permanainan TIC TAC TOE</h1><br>
+
+		<!-- Game Instructions -->
+		<p id="parag">Permainan dimulai dengan menekan pada layar<br>
+            <br>Player pertama dengan 
+			<b>Tanda X</b><br>dan<br>pemain kedua dengan
+            <b>Tanda 0</b><br>
+		</p>
+        <div class="parag1">Player 1  (X) </div><br>
+        <div class="parag2">Player 2  (O) </div>
+
+        
+
+
+
+
+		<br><br>
+		<!-- 3*3 grid of Boxes -->
+		<input type="text" id="x1" onclick=
+			"myfunc_3(); myfunc();" readonly>
+
+		<input type="text" id="x2" onclick=
+			"myfunc_4(); myfunc();" readonly>
+
+		<input type="text" id="x3" onclick=
+			"myfunc_5(); myfunc();" readonly>
+		<br><br>
+
+		<input type="text" id="x4" onclick=
+			"myfunc_6(); myfunc();" readonly>
+			
+		<input type="text" id="x5" onclick=
+			"myfunc_7(); myfunc();" readonly>
+
+		<input type="text" id="x6" onclick=
+			"myfunc_8(); myfunc();" readonly>
+		<br><br>
+
+		<input type="text" id="x7" onclick=
+			"myfunc_9(); myfunc();" readonly>
+
+		<input type="text" id="x8" onclick=
+			"myfunc_10();myfunc();" readonly>
+
+		<input type="text" id="x9" onclick=
+			"myfunc_11();myfunc();" readonly>
+
+		<!-- Grid end here -->
+		<br><br><br>
+		<!-- Button to reset game -->
+		<button id="TOMBOL" onclick="myfunc_2()">
+			RESTART
+		</button>
+
+		<br><br>
+		<!-- Space to show player turn -->
+		<p id="print"></p>
+
+
+
+
+	</div>
+</body>
+
+</html>
+

@@ -1,0 +1,118 @@
+
+	/* CSS Code */
+	/* Heading */
+
+
+	* {
+		padding: 0;
+		margin: 0;
+		font-family: 'Itim', cursive;
+	}
+
+	body {
+        background: rgb(34,193,195);
+        background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(240,45,253,1) 100%);
+      }
+	h1 {
+		box-sizing: border-box;
+		width:50em;
+		height: 20px;
+		border: 20px solid rgb(191, 255, 30);
+		margin: auto;
+		border-radius:30px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		/* background-color: dodgerblue; */
+		/* color: white;
+		font-size: 15px; */
+		color: green;
+		font-size: 17px;
+		text-align: center;
+		
+	    
+	}
+
+	/* 3*3 Grid */
+	#x1, #x2, #x3, #x4, #x5,
+	#x6, #x7, #x8, #x9 {
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid red;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	/* Reset Button */
+	#TOMBOL {
+		box-sizing: border-box;
+		width: 105px;
+		height: 50px;
+		border: 10px solid red;
+		margin: auto;
+		border-radius: 10px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		background-color: red;
+		color: white;
+		font-size: 15px;
+		cursor: pointer;
+	}
+
+	/* Player turn space */
+	#print {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		color: white;
+		font-size: 20px;
+	}
+
+	/* Main Container */
+	#main {
+		text-align: center;
+	}
+
+	/* Game Instruction Text */
+	#parag {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+			
+		color: black;
+		font-size: 17px;
+	}
+
+	.parag1{
+		box-sizing: border-box;
+		width: 105px;
+		height: 50px;
+		border: 10px solid dodgerblue;
+		margin: auto;
+		border-radius: 10px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		background-color: dodgerblue;
+		color: white;
+		font-size: 15px;
+		cursor: pointer;
+	}
+
+	.parag2{
+		box-sizing: border-box;
+		width: 105px;
+		height: 50px;
+		border: 10px solid dodgerblue;
+		margin: auto;
+		border-radius: 10px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		background-color: dodgerblue;
+		color: white;
+		font-size: 15px;
+		cursor: pointer;
+	}
